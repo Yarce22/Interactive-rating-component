@@ -3,7 +3,7 @@ const calification = document.querySelectorAll('.calification');
 
 // Definir una función que cambia el color de fondo de un div
 function changeColor (div) {
-  // Recorrer todos los divs y ponerlos de color gris
+  // Recorrer todos los divs y ponerlos de color gris oscuro y las letras a gris claro
   for (let i = 0; i < calification.length; i++) {
     calification[i].style.backgroundColor = '#262E38';
     calification[i].style.color = '#7C8798';
