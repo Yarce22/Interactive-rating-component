@@ -106,3 +106,47 @@ button:hover {
   color: var(--primary-color);
   cursor: pointer;
 }
+
+.submitSend-container {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  width: 327px;
+  height: 360px;
+  padding: 24px ;
+  border-radius: 15px;
+  background: var(--background-color-card)
+}
+
+.submitSend-container .image {
+  width: 144px;
+  height: 96px;
+  margin: 34px 29px;
+  background-image: url(../images/illustration-thank-you.svg);
+  background-size: 100% 100%;
+}
+
+.submitSend-container .punctuation {
+  width: 168px;
+  height: 32px;
+  color: var(--Orange, #FC7614);
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 35px;
+  background-color: var(--background-color-cicle);
+  border-radius: 22.5px;
+  margin: 0 auto;
+}
+
+.submitSend-container h2 {
+  margin: 29px 0 10px;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--tittle-text-color);
+}
+
+.submitSend-container p {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--p-text-color);
+}
