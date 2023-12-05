@@ -72,11 +72,12 @@ body {
 }
 
 .calification-container .calification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 42px;
   height: 42px;
   margin: 24px 0;
-  text-align: center;
-  line-height: 45px;
   font-size: 1.4rem;
   font-weight: 700;
   color: var(--number-text-color);
@@ -149,4 +150,34 @@ button:hover {
   font-size: 14px;
   font-weight: 400;
   color: var(--p-text-color);
+}
+
+@media screen and (min-width: 766px) {
+  .card-container {
+    width: 412px;
+    height: 416px;
+  }
+
+  .card-container h1 {
+    font-size: 28px;
+  }
+
+  .card-container p {
+    font-size: 1.5rem;
+  }
+
+  .card-container .calification-container .calification {
+    width: 51px;
+    height: 51px;
+  }
+
+  .submitSend-container {
+    width: 412px;
+    height: 416px;
+  }
+
+  .submitSend-container .image {
+    width: 162px;
+    height: 108px;
+  }
 }
